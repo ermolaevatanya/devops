@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build --network=host -t ermolaevatanya/devops/hw7:1.7 .'
+				sh 'docker build --network=host -t ermolaevatanya/devops:1.7 .'
 			}
 		}
 
@@ -25,7 +25,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push ermolaevatanya/devops/hw7:1.7'
+				sh 'docker push ermolaevatanya/devops:1.7'
 			}
 		}
 	}
