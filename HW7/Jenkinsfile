@@ -6,7 +6,7 @@ pipeline{
 	stages {
 		stage('Build') {
 			steps {
-				sh 'docker build -t ermolaevatanya/devops/HW7:latest .'
+				sh 'docker build -t ermolaevatanya/devops/hw7:latest .'
 			}
 		}
 		stage('Login') {
@@ -16,7 +16,7 @@ pipeline{
 		}
 		stage('Push') {
 			steps {
-				sh 'docker push ermolaevatanya/devops/HW7:latest'
+				sh 'docker push ermolaevatanya/devops/hw7:latest'
 			}
 		}
 	}
