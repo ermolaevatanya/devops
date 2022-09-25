@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 qq#terraform {
+=======
+#terraform {
+>>>>>>> 21a50bf (diplom project)
 #  backend "s3" {
 #    bucket         = "ermolaevabucket"
 #    key            = "terra-backend/terraform.tfstate"
