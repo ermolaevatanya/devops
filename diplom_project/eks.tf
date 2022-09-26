@@ -9,7 +9,7 @@ resource "aws_iam_role" "ermolaeva" {
     "Principal": {
       "Service": "eks.amazonaws.com"
     },
-    "Action": "sts.AssumeRole"
+    "Action": "sts:AssumeRole"
    }
  ]
  })
